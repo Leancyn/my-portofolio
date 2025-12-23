@@ -1,5 +1,6 @@
 import React from "react";
-import { Facebook, MessageCircle, Code2, Instagram } from "lucide-react";
+import { Facebook, MessageCircle, Instagram } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,8 +23,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-8">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                <Code2 className="text-white w-6 h-6" />
+              <div className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-xl flex items-center justify-center">
+                <img src={logo} alt="Logo" className="w-8 h-8" />
               </div>
               <span className="text-white font-bold text-xl">Titik Kode Studio</span>
             </div>
