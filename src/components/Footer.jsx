@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, MessageCircle, Instagram } from "lucide-react";
+import { Facebook, MessageCircle, Code2, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,10 +22,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-8">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">W</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+                <Code2 className="text-white w-6 h-6" />
               </div>
-              <span className="text-white font-bold text-xl">WebCraft</span>
+              <span className="text-white font-bold text-xl">Titik Kode Studio</span>
             </div>
             <p className="text-slate-400 mb-6 max-w-sm">Membangun pengalaman digital luar biasa yang mendorong pertumbuhan bisnis dan inovasi.</p>
             <div className="flex gap-4">
@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-slate-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm text-center md:text-left">© {currentYear} WebCraft Agency. All rights reserved.</p>
+            <p className="text-slate-400 text-sm text-center md:text-left">© {currentYear} Titik Kode Studio. All rights reserved.</p>
             <p className="text-slate-400 text-sm text-center md:text-right">Crafted with passion and precision</p>
           </div>
         </div>

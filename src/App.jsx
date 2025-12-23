@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>WebCraft Agency - Professional Web Development Services</title>
+        <title>Titik Kode Studio - Professional Web Development Services</title>
         <meta name="description" content="WebCraft Agency delivers cutting-edge web development solutions." />
       </Helmet>
 

@@ -36,7 +36,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 backdrop-blur-sm rounded-full mb-6 border border-slate-700"
           >
             <Sparkles className="w-4 h-4 text-blue-400" />
-            <span className="text-sm text-slate-300">Welcome to WebCraft Agency</span>
+            <span className="text-sm text-slate-300">Welcome to Titik Kode Studio</span>
           </motion.div>
 
           <motion.h1
